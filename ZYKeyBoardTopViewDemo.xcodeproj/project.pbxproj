@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20725AFA2048E13C00206E47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20725AF92048E13C00206E47 /* AppDelegate.m */; };
+		20725AFD2048E13C00206E47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20725AFC2048E13C00206E47 /* ViewController.m */; };
+		20725B002048E13C00206E47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20725AFE2048E13C00206E47 /* Main.storyboard */; };
+		20725B032048E13C00206E47 /* ZYKeyBoardTopViewDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20725B012048E13C00206E47 /* ZYKeyBoardTopViewDemo.xcdatamodeld */; };
+		20725B052048E13C00206E47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20725B042048E13C00206E47 /* Assets.xcassets */; };
+		20725B082048E13C00206E47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20725B062048E13C00206E47 /* LaunchScreen.storyboard */; };
+		20725B0B2048E13C00206E47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20725B0A2048E13C00206E47 /* main.m */; };
+		20725B152048E13C00206E47 /* ZYKeyBoardTopViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20725B142048E13C00206E47 /* ZYKeyBoardTopViewDemoTests.m */; };
+		20725B202048E13C00206E47 /* ZYKeyBoardTopViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20725B1F2048E13C00206E47 /* ZYKeyBoardTopViewDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20725B112048E13C00206E47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20725AED2048E13B00206E47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20725AF42048E13B00206E47;
+			remoteInfo = ZYKeyBoardTopViewDemo;
+		};
+		20725B1C2048E13C00206E47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20725AED2048E13B00206E47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20725AF42048E13B00206E47;
+			remoteInfo = ZYKeyBoardTopViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20725AF52048E13B00206E47 /* ZYKeyBoardTopViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYKeyBoardTopViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20725AF82048E13C00206E47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20725AF92048E13C00206E47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20725AFB2048E13C00206E47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20725AFC2048E13C00206E47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20725AFF2048E13C00206E47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20725B022048E13C00206E47 /* ZYKeyBoardTopViewDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZYKeyBoardTopViewDemo.xcdatamodel; sourceTree = "<group>"; };
+		20725B042048E13C00206E47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20725B072048E13C00206E47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20725B092048E13C00206E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20725B0A2048E13C00206E47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20725B102048E13C00206E47 /* ZYKeyBoardTopViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYKeyBoardTopViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20725B142048E13C00206E47 /* ZYKeyBoardTopViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYKeyBoardTopViewDemoTests.m; sourceTree = "<group>"; };
+		20725B162048E13C00206E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20725B1B2048E13C00206E47 /* ZYKeyBoardTopViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYKeyBoardTopViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20725B1F2048E13C00206E47 /* ZYKeyBoardTopViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYKeyBoardTopViewDemoUITests.m; sourceTree = "<group>"; };
+		20725B212048E13C00206E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20725AF22048E13B00206E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20725B0D2048E13C00206E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20725B182048E13C00206E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20725AEC2048E13B00206E47 = {
+			isa = PBXGroup;
+			children = (
+				20725AF72048E13B00206E47 /* ZYKeyBoardTopViewDemo */,
+				20725B132048E13C00206E47 /* ZYKeyBoardTopViewDemoTests */,
+				20725B1E2048E13C00206E47 /* ZYKeyBoardTopViewDemoUITests */,
+				20725AF62048E13B00206E47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20725AF62048E13B00206E47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20725AF52048E13B00206E47 /* ZYKeyBoardTopViewDemo.app */,
+				20725B102048E13C00206E47 /* ZYKeyBoardTopViewDemoTests.xctest */,
+				20725B1B2048E13C00206E47 /* ZYKeyBoardTopViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20725AF72048E13B00206E47 /* ZYKeyBoardTopViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				20725AF82048E13C00206E47 /* AppDelegate.h */,
+				20725AF92048E13C00206E47 /* AppDelegate.m */,
+				20725AFB2048E13C00206E47 /* ViewController.h */,
+				20725AFC2048E13C00206E47 /* ViewController.m */,
+				20725AFE2048E13C00206E47 /* Main.storyboard */,
+				20725B042048E13C00206E47 /* Assets.xcassets */,
+				20725B062048E13C00206E47 /* LaunchScreen.storyboard */,
+				20725B092048E13C00206E47 /* Info.plist */,
+				20725B0A2048E13C00206E47 /* main.m */,
+				20725B012048E13C00206E47 /* ZYKeyBoardTopViewDemo.xcdatamodeld */,
+			);
+			path = ZYKeyBoardTopViewDemo;
+			sourceTree = "<group>";
+		};
+		20725B132048E13C00206E47 /* ZYKeyBoardTopViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				20725B142048E13C00206E47 /* ZYKeyBoardTopViewDemoTests.m */,
+				20725B162048E13C00206E47 /* Info.plist */,
+			);
+			path = ZYKeyBoardTopViewDemoTests;
+			sourceTree = "<group>";
+		};
+		20725B1E2048E13C00206E47 /* ZYKeyBoardTopViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20725B1F2048E13C00206E47 /* ZYKeyBoardTopViewDemoUITests.m */,
+				20725B212048E13C00206E47 /* Info.plist */,
+			);
+			path = ZYKeyBoardTopViewDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20725AF42048E13B00206E47 /* ZYKeyBoardTopViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20725B242048E13C00206E47 /* Build configuration list for PBXNativeTarget "ZYKeyBoardTopViewDemo" */;
+			buildPhases = (
+				20725AF12048E13B00206E47 /* Sources */,
+				20725AF22048E13B00206E47 /* Frameworks */,
+				20725AF32048E13B00206E47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYKeyBoardTopViewDemo;
+			productName = ZYKeyBoardTopViewDemo;
+			productReference = 20725AF52048E13B00206E47 /* ZYKeyBoardTopViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20725B0F2048E13C00206E47 /* ZYKeyBoardTopViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20725B272048E13C00206E47 /* Build configuration list for PBXNativeTarget "ZYKeyBoardTopViewDemoTests" */;
+			buildPhases = (
+				20725B0C2048E13C00206E47 /* Sources */,
+				20725B0D2048E13C00206E47 /* Frameworks */,
+				20725B0E2048E13C00206E47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20725B122048E13C00206E47 /* PBXTargetDependency */,
+			);
+			name = ZYKeyBoardTopViewDemoTests;
+			productName = ZYKeyBoardTopViewDemoTests;
+			productReference = 20725B102048E13C00206E47 /* ZYKeyBoardTopViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20725B1A2048E13C00206E47 /* ZYKeyBoardTopViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20725B2A2048E13C00206E47 /* Build configuration list for PBXNativeTarget "ZYKeyBoardTopViewDemoUITests" */;
+			buildPhases = (
+				20725B172048E13C00206E47 /* Sources */,
+				20725B182048E13C00206E47 /* Frameworks */,
+				20725B192048E13C00206E47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20725B1D2048E13C00206E47 /* PBXTargetDependency */,
+			);
+			name = ZYKeyBoardTopViewDemoUITests;
+			productName = ZYKeyBoardTopViewDemoUITests;
+			productReference = 20725B1B2048E13C00206E47 /* ZYKeyBoardTopViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20725AED2048E13B00206E47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "王智垚";
+				TargetAttributes = {
+					20725AF42048E13B00206E47 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					20725B0F2048E13C00206E47 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20725AF42048E13B00206E47;
+					};
+					20725B1A2048E13C00206E47 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20725AF42048E13B00206E47;
+					};
+				};
+			};
+			buildConfigurationList = 20725AF02048E13B00206E47 /* Build configuration list for PBXProject "ZYKeyBoardTopViewDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20725AEC2048E13B00206E47;
+			productRefGroup = 20725AF62048E13B00206E47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20725AF42048E13B00206E47 /* ZYKeyBoardTopViewDemo */,
+				20725B0F2048E13C00206E47 /* ZYKeyBoardTopViewDemoTests */,
+				20725B1A2048E13C00206E47 /* ZYKeyBoardTopViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20725AF32048E13B00206E47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20725B082048E13C00206E47 /* LaunchScreen.storyboard in Resources */,
+				20725B052048E13C00206E47 /* Assets.xcassets in Resources */,
+				20725B002048E13C00206E47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20725B0E2048E13C00206E47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20725B192048E13C00206E47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20725AF12048E13B00206E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20725AFD2048E13C00206E47 /* ViewController.m in Sources */,
+				20725AFA2048E13C00206E47 /* AppDelegate.m in Sources */,
+				20725B0B2048E13C00206E47 /* main.m in Sources */,
+				20725B032048E13C00206E47 /* ZYKeyBoardTopViewDemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20725B0C2048E13C00206E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20725B152048E13C00206E47 /* ZYKeyBoardTopViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20725B172048E13C00206E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20725B202048E13C00206E47 /* ZYKeyBoardTopViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20725B122048E13C00206E47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20725AF42048E13B00206E47 /* ZYKeyBoardTopViewDemo */;
+			targetProxy = 20725B112048E13C00206E47 /* PBXContainerItemProxy */;
+		};
+		20725B1D2048E13C00206E47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20725AF42048E13B00206E47 /* ZYKeyBoardTopViewDemo */;
+			targetProxy = 20725B1C2048E13C00206E47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20725AFE2048E13C00206E47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20725AFF2048E13C00206E47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20725B062048E13C00206E47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20725B072048E13C00206E47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20725B222048E13C00206E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20725B232048E13C00206E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20725B252048E13C00206E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYKeyBoardTopViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZYKeyBoardTopViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20725B262048E13C00206E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYKeyBoardTopViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZYKeyBoardTopViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20725B282048E13C00206E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYKeyBoardTopViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZYKeyBoardTopViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYKeyBoardTopViewDemo.app/ZYKeyBoardTopViewDemo";
+			};
+			name = Debug;
+		};
+		20725B292048E13C00206E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYKeyBoardTopViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZYKeyBoardTopViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYKeyBoardTopViewDemo.app/ZYKeyBoardTopViewDemo";
+			};
+			name = Release;
+		};
+		20725B2B2048E13C00206E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYKeyBoardTopViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZYKeyBoardTopViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYKeyBoardTopViewDemo;
+			};
+			name = Debug;
+		};
+		20725B2C2048E13C00206E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYKeyBoardTopViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZYKeyBoardTopViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYKeyBoardTopViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20725AF02048E13B00206E47 /* Build configuration list for PBXProject "ZYKeyBoardTopViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20725B222048E13C00206E47 /* Debug */,
+				20725B232048E13C00206E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20725B242048E13C00206E47 /* Build configuration list for PBXNativeTarget "ZYKeyBoardTopViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20725B252048E13C00206E47 /* Debug */,
+				20725B262048E13C00206E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20725B272048E13C00206E47 /* Build configuration list for PBXNativeTarget "ZYKeyBoardTopViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20725B282048E13C00206E47 /* Debug */,
+				20725B292048E13C00206E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20725B2A2048E13C00206E47 /* Build configuration list for PBXNativeTarget "ZYKeyBoardTopViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20725B2B2048E13C00206E47 /* Debug */,
+				20725B2C2048E13C00206E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		20725B012048E13C00206E47 /* ZYKeyBoardTopViewDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				20725B022048E13C00206E47 /* ZYKeyBoardTopViewDemo.xcdatamodel */,
+			);
+			currentVersion = 20725B022048E13C00206E47 /* ZYKeyBoardTopViewDemo.xcdatamodel */;
+			path = ZYKeyBoardTopViewDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 20725AED2048E13B00206E47 /* Project object */;
+}
