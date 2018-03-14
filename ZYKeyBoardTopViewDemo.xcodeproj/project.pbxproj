@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		203C906C204A3DF4001694C9 /* CMAMCustonAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C906B204A3DF4001694C9 /* CMAMCustonAlertView.m */; };
 		20725AFA2048E13C00206E47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20725AF92048E13C00206E47 /* AppDelegate.m */; };
 		20725AFD2048E13C00206E47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20725AFC2048E13C00206E47 /* ViewController.m */; };
 		20725B002048E13C00206E47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20725AFE2048E13C00206E47 /* Main.storyboard */; };
@@ -16,6 +17,12 @@
 		20725B0B2048E13C00206E47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20725B0A2048E13C00206E47 /* main.m */; };
 		20725B152048E13C00206E47 /* ZYKeyBoardTopViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20725B142048E13C00206E47 /* ZYKeyBoardTopViewDemoTests.m */; };
 		20725B202048E13C00206E47 /* ZYKeyBoardTopViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20725B1F2048E13C00206E47 /* ZYKeyBoardTopViewDemoUITests.m */; };
+		20725B2F2048E2D900206E47 /* CMAllMediaInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20725B2E2048E2D900206E47 /* CMAllMediaInputView.m */; };
+		208BEFF4204D1AC900283BC1 /* UIColor+CmosAllMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 208BEFF3204D1AC400283BC1 /* UIColor+CmosAllMedia.m */; };
+		209856B12058D53700894EDA /* w.png in Resources */ = {isa = PBXBuildFile; fileRef = 209856AD2058D53700894EDA /* w.png */; };
+		209856B22058D53700894EDA /* r.png in Resources */ = {isa = PBXBuildFile; fileRef = 209856AE2058D53700894EDA /* r.png */; };
+		209856B32058D53700894EDA /* e.png in Resources */ = {isa = PBXBuildFile; fileRef = 209856AF2058D53700894EDA /* e.png */; };
+		209856B42058D53700894EDA /* q.png in Resources */ = {isa = PBXBuildFile; fileRef = 209856B02058D53700894EDA /* q.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		203C906A204A3DF4001694C9 /* CMAMCustonAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAMCustonAlertView.h; sourceTree = "<group>"; };
+		203C906B204A3DF4001694C9 /* CMAMCustonAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAMCustonAlertView.m; sourceTree = "<group>"; };
 		20725AF52048E13B00206E47 /* ZYKeyBoardTopViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYKeyBoardTopViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20725AF82048E13C00206E47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		20725AF92048E13C00206E47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +62,15 @@
 		20725B1B2048E13C00206E47 /* ZYKeyBoardTopViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYKeyBoardTopViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20725B1F2048E13C00206E47 /* ZYKeyBoardTopViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYKeyBoardTopViewDemoUITests.m; sourceTree = "<group>"; };
 		20725B212048E13C00206E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20725B2D2048E2D900206E47 /* CMAllMediaInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAllMediaInputView.h; sourceTree = "<group>"; };
+		20725B2E2048E2D900206E47 /* CMAllMediaInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAllMediaInputView.m; sourceTree = "<group>"; };
+		208BEFEF204CD76000283BC1 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		208BEFF2204D1AC400283BC1 /* UIColor+CmosAllMedia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+CmosAllMedia.h"; sourceTree = "<group>"; };
+		208BEFF3204D1AC400283BC1 /* UIColor+CmosAllMedia.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CmosAllMedia.m"; sourceTree = "<group>"; };
+		209856AD2058D53700894EDA /* w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w.png; sourceTree = "<group>"; };
+		209856AE2058D53700894EDA /* r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r.png; sourceTree = "<group>"; };
+		209856AF2058D53700894EDA /* e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = e.png; sourceTree = "<group>"; };
+		209856B02058D53700894EDA /* q.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = q.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +101,7 @@
 		20725AEC2048E13B00206E47 = {
 			isa = PBXGroup;
 			children = (
+				209856AC2058D53700894EDA /* image */,
 				20725AF72048E13B00206E47 /* ZYKeyBoardTopViewDemo */,
 				20725B132048E13C00206E47 /* ZYKeyBoardTopViewDemoTests */,
 				20725B1E2048E13C00206E47 /* ZYKeyBoardTopViewDemoUITests */,
@@ -103,10 +122,17 @@
 		20725AF72048E13B00206E47 /* ZYKeyBoardTopViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				208BEFF2204D1AC400283BC1 /* UIColor+CmosAllMedia.h */,
+				208BEFF3204D1AC400283BC1 /* UIColor+CmosAllMedia.m */,
+				208BEFEF204CD76000283BC1 /* Header.h */,
 				20725AF82048E13C00206E47 /* AppDelegate.h */,
 				20725AF92048E13C00206E47 /* AppDelegate.m */,
 				20725AFB2048E13C00206E47 /* ViewController.h */,
 				20725AFC2048E13C00206E47 /* ViewController.m */,
+				203C906A204A3DF4001694C9 /* CMAMCustonAlertView.h */,
+				203C906B204A3DF4001694C9 /* CMAMCustonAlertView.m */,
+				20725B2D2048E2D900206E47 /* CMAllMediaInputView.h */,
+				20725B2E2048E2D900206E47 /* CMAllMediaInputView.m */,
 				20725AFE2048E13C00206E47 /* Main.storyboard */,
 				20725B042048E13C00206E47 /* Assets.xcassets */,
 				20725B062048E13C00206E47 /* LaunchScreen.storyboard */,
@@ -133,6 +159,17 @@
 				20725B212048E13C00206E47 /* Info.plist */,
 			);
 			path = ZYKeyBoardTopViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		209856AC2058D53700894EDA /* image */ = {
+			isa = PBXGroup;
+			children = (
+				209856AD2058D53700894EDA /* w.png */,
+				209856AE2058D53700894EDA /* r.png */,
+				209856AF2058D53700894EDA /* e.png */,
+				209856B02058D53700894EDA /* q.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +280,11 @@
 			files = (
 				20725B082048E13C00206E47 /* LaunchScreen.storyboard in Resources */,
 				20725B052048E13C00206E47 /* Assets.xcassets in Resources */,
+				209856B42058D53700894EDA /* q.png in Resources */,
 				20725B002048E13C00206E47 /* Main.storyboard in Resources */,
+				209856B32058D53700894EDA /* e.png in Resources */,
+				209856B12058D53700894EDA /* w.png in Resources */,
+				209856B22058D53700894EDA /* r.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +310,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				20725AFD2048E13C00206E47 /* ViewController.m in Sources */,
+				208BEFF4204D1AC900283BC1 /* UIColor+CmosAllMedia.m in Sources */,
 				20725AFA2048E13C00206E47 /* AppDelegate.m in Sources */,
+				20725B2F2048E2D900206E47 /* CMAllMediaInputView.m in Sources */,
 				20725B0B2048E13C00206E47 /* main.m in Sources */,
 				20725B032048E13C00206E47 /* ZYKeyBoardTopViewDemo.xcdatamodeld in Sources */,
+				203C906C204A3DF4001694C9 /* CMAMCustonAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,8 +479,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				DEVELOPMENT_TEAM = U746D2ER88;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZYKeyBoardTopViewDemo/Header.h";
 				INFOPLIST_FILE = ZYKeyBoardTopViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZYKeyBoardTopViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -449,8 +495,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				DEVELOPMENT_TEAM = U746D2ER88;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZYKeyBoardTopViewDemo/Header.h";
 				INFOPLIST_FILE = ZYKeyBoardTopViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZYKeyBoardTopViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
